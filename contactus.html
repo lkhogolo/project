@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+         <!-- build:css css/main.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- endbuild -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <title>Contact Me</title>
+    </head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/sara1.jpg" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1>Sara Joyce Counseling</h1>
+                    <p>Sara J. Ratliff, MA, LPC, NCC </br>
+                        sararatliffcounseling@gmail.com </br>
+                        (913) 704-9915</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <div class ="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sjNavbar">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#sjNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="sjNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">  Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">  About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="myapproach.html">  My Approach</a></li>
+                    <li class="nav-item"><a class="nav-link" href="treatments.html"> Treatments</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">  Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Contact Me</li>
+                </ol>
+                <h2>Contact Me</h2>
+                <hr />
+            </div>
+        </div>
+        <style>
+            .imgs
+            {
+                padding: 30px 0;
+                text-align: center; 
+                width:100%;
+                height:300px;
+                object-fit: cover;
+            }
+        </style>
+        <div class="row row-content items-align-center">
+            <div class="col-sm-12">
+                <img class="imgs" src="img/office2.jpg" alt="...">
+            </div>
+        </div>
+        <div class="row">          
+            <div class="col">
+                <p>
+                    <br>To book an appointment or to obtain additional information about my Counseling
+                    services, please fill out the form below or give me a call on (913) 704-9915. <br>
+                    I am committed to your privacy.<span style="color:#e60f0f; font-style:italic;"> Do not include confidential or private information
+                    regarding your health condition in this form.</span>
+                </p>     
+            </div>
+        </div>
+    
+        <div class="row mx-auto">
+            <div class="col-md-9">
+                <form id="contact-form" name="contact-form" action="https://formspree.io/xrgyvgrw" method="POST">
+                    <div class="form-group row"></div>
+                    <div class="form-group row">              
+                        <div class="col-sm-5 col-md-3">
+                            <label for="name" class="col-form-label">First Name:</label>                       
+                        </div>
+                        <div class="col-sm-7 col-md-8">            
+                            <input type="text" class="form-control" id="name" name="name" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row"> 
+                        <div class="col col-sm-5 col-md-3">
+                            <label for="lname" class="col-form-label">Last Name:</label>
+                        </div>
+                        <div class="col-sm-7 col-md-8">
+                            <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">            
+                        <div class="col col-sm-5 col-md-3">
+                            <label for="email" class="col-form-label">Email address:</label>
+                        </div>               
+                        <div class="col-sm-7 col-md-8">
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email Address">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col col-sm-5 col-md-3">
+                            <label for="phone" class="col-form-label">Phone Number:</label>
+                        </div>
+                        <div class="col-sm-7 col-md-8">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number">
+                            <br><p>Preferred form of contact:</p>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" id="radio1" name="cmethod" value="phone" checked>
+                                <label class="form-check-label" for="radio1">Phone</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                <input class="form-check-input" type="radio" id="radio2" name="cmethod" value="mail">
+                                <label class="form-check-label" for="radio2">Email</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="form-group row">
+                        <div class="col col-sm-5 col-md-3">
+                            <label for= "servicetype" class="col-form-label">Type of Service:</label>
+                        </div>
+                    <div class="col-sm-7 col-md-8">
+                            <select class="form-control" name="subject" id="subject">
+                                <option selected>Select...</option>
+                                <option value="freePhone">Free Phone Consulation</option>
+                                <option value="appointment">Set up an appointment</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row"> 
+                        <div class="col col-sm-5 col-md-3">
+                            <label for="message" class="col-form-label">Message:</label>
+                        </div>       
+                        <div class="col-sm-7 col-md-8">
+                            <textarea class="form-control" id="message" name="message" maxlength="6000" rows="6" placeholder="Type your message here"></textarea>
+                        </div>            
+                    </div>  
+                    <div class="status" style="font-style:italic; text-align: center; color:#e60f0f;">
+                    </div><br><br>
+                <div class="row" style="text-align: center;">
+                    <div class="col">
+                        <button id="submitBtn" name="submitBtn" type="submit" class="btn btn-lg btn-warning text-white">Submit</button><br>               
+                        <span class ="text-muted" style="font-style:italic; font-size:10px;">
+                            (By clicking submit you agree that the phone number and/or email you provided may be used to 
+                            contact you)
+                        </span>
+                    </div>                       
+                </div>
+                </form>
+                
+            </div>
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fa fa-map-marker fa-2x"></i>
+                        <p>Shawnee, KS 66203, USA</p>
+                    </li>
+    
+                    <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                        <p> (913) 704-9915</p>
+                    </li>
+    
+                    <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                        <p>sararatliffcounseling@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<footer class ="site-footer">
+    <div class="container">
+        <div class= "row">
+            <div class ="col-sm-4">
+                <h5>Links</h5>
+                <ul class= "list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="myapproach.html">My Approach</a></li>
+                    <li><a href="treatments.html">Treatments</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class ="col-sm-4">
+                <h5>Social</h5>
+                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>                   
+            </div>
+            <div class="col-sm-4 d-sm-block d-none text-left" >
+                <h5>Contact info:</h5>
+                <a role="button" class="btn btn-link" href="tel:+19137049915"><i class="fa fa-phone"></i> (913) 704-9915</a><br />
+                <a role="button" class="btn btn-link" href="mailto:sararatliffcounseling@gmail.com"><i class="fa fa-envelope-o"></i> sararatliffcounseling@gmail.com</a>
+                <ul class= "list-unstyled">
+                    <li><a> Office Hours:</a></li>
+                    <li><a> Mon, Wed & Fri: 8am-6pm</a></li>
+                    <li><a> Tue & Thu: 8am-6pm</a></li>
+                    <li><a> Sat: By Appointment</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>   
+</footer>
+<!-- build:js js/main.js -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<!-- endbuild -->
+
+</body>
+
+</html>

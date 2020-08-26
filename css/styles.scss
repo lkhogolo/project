@@ -1,0 +1,53 @@
+$color-primary: #fabb32bd;
+$color-secondary: #d16f1f;
+$color-pale: #f7b394;
+$color-mid: #cc874f;
+$color-warning: #000000;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-cream:#e6e7d0;
+$color-background:#e5e6e0;
+$color-black: rgba(0, 0, 0, 0.5);
+
+$body-font: "Georgia","Verdana", "Arial", "Tahoma", serif;
+$header-font: "Lobster", cursive;
+
+body {
+    font-family: $body-font;
+    background-color: $color-background;
+}
+h1, h2, h3, .blockquote {
+    font-family: $header-font;
+}
+h2 {
+    color: $color-mid;
+}
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+.dropdown-menu{
+    background-color: $color-background;
+}
+.site-footer {
+    background-image: linear-gradient($color-secondary, $color-primary, white);
+    padding: 20px 0;
+}
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-primary, $color-secondary, $color-primary);
+    color: rgb(24, 10, 10);
+}
+.navbar {
+    background-color: $color-secondary;
+}
+.breadcrumb{
+    background-color: $color-cream;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+

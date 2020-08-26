@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body {
+  font-family: "Georgia", "Verdana",   "Arial",   "Tahoma",  serif;
+  background-color: #e5e6e0; }
+
+h1, h2, h3, .blockquote {
+  font-family: "Lobster",  cursive; }
+
+h2 {
+  color: #cc874f; }
+
+header h2 {
+  color: #f7b394; }
+
+.dropdown-menu {
+  background-color: #e5e6e0; }
+
+.site-footer {
+  background-image: linear-gradient(#d16f1f, #fabb32bd, white);
+  padding: 20px 0; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #fabb32bd, #d16f1f, #fabb32bd);
+  color: #180a0a; }
+
+.navbar {
+  background-color: #d16f1f; }
+
+.breadcrumb {
+  background-color:   #e6e7d0; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
