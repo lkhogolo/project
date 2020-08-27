@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "sara-project",
   "version": "1.0.0",
   "description": "This is a recreation of Sara Joyce Counseling website https://sarajoycecounseling.com",
   "main": "index.html",
@@ -17,8 +17,10 @@
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/lkhogolo/sara-project.git"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": "Lucy Khogolo",
   "license": "ISC",
   "devDependencies": {
